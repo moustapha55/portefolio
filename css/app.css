@@ -134,6 +134,9 @@ ul.timeline > li:before {
     font-weight: bold;
     padding-left: 20px;
 }
+.card strong img{
+    width: 50px;
+}
 .card strong i{
     font-size: 50px;
     color: #19376D;
@@ -147,4 +150,51 @@ ul.timeline > li:before {
 .card .card-body .card-text {
     font-size: 14px;
     color: #777
+}
+
+
+  
+ 
+  .banniere {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+  
+  p {
+    margin-bottom: 20px;
+  }
+  
+  .contact {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+  }
+  
+  .contact li {
+    margin: 0 10px;
+  }
+  
+  .contact a {
+    color: #4e4a4a;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .contact a:hover {
+    color: #ddd;
+  }
+  
+  .fa {
+    margin-right: 10px;
+  }
+  .card .card-body .from-group .form-control {
+    outline: none;
+    border: 1px solid #777;
 }
